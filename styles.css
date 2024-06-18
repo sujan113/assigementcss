@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&family=Lobster&family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@1,700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f8ff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf3e0;
     color: #333;
     margin: 0;
     padding: 0;
@@ -12,65 +12,66 @@ body {
 }
 
 header, footer {
-    background-color: #97f8ae;
-    padding: 10px;
+    background-color: #ffccbc;
+    padding: 20px;
     width: 100%;
     text-align: center;
 }
 
 header h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 2.5em;
-    color: #ff69b4;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    color: #d32f2f;
 }
 
 header h2 {
-    font-family: 'Pacifico', cursive;
-    font-size: 1.5em;
-    color: #ff6969;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.8em;
+    color: #d84315;
 }
 
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 section.first p {
-    font-family:'Lobster', cursive;
-    font-size: 1.2rem;
-    color: #ff4500;
-
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #37474f;
 }
 
 section.second p {
     font-style: italic;
-    color: #0ccd89;
+    color: #6a1b9a;
 }
 
 section.third p {
     font-weight: bold;
-    color: #228b22;
+    color: #2e7d32;
 }
 
 section.dream p {
-    font-family: 'Pacifico', cursive;
-    color: #d92b2b;
+    font-family: 'Indie Flower', cursive;
+    color: #c2185b;
 }
 
 section.end p {
-    font-family: "Crimson Text", serif;
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.3rem;
     font-style: italic;
- color: #a84f06c4;
+    color: #795548;
 }
 
 footer p {
-    font-size: 0.8em;
-    color: #555;
+    font-size: 0.9em;
+    color: #777;
 }
