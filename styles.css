@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&family=Lobster&family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, footer {
+    background-color: #97f8ae;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #ff69b4;
+}
+
+header h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    color: #ff6969;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section.first p {
+    font-family:'Lobster', cursive;
+    font-size: 1.2rem;
+    color: #ff4500;
+
+}
+
+section.second p {
+    font-style: italic;
+    color: #0ccd89;
+}
+
+section.third p {
+    font-weight: bold;
+    color: #228b22;
+}
+
+section.dream p {
+    font-family: 'Pacifico', cursive;
+    color: #d92b2b;
+}
+
+section.end p {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+ color: #a84f06c4;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #555;
+}
